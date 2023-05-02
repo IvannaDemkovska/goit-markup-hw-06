@@ -165,7 +165,7 @@ body {
 .naw-link.current::after,
 .naw-link.current:hover::after,
 .naw-link.current:focus::after {
-  background-color: darkviolet;
+  background-color: var(--color-ocean);
 }
 .address {
   font-style: normal;
@@ -469,12 +469,21 @@ body {
 .foot-social-media-link:focus {
   background-color: var(--color-green);
 }
+.footer-social-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+  margin-bottom: 16px;
+}
 .ft-text-wraper {
   margin-right: 120px;
 }
 .footer-right-side {
-margin-left: 120px;
+margin-left: 159px;
 }
+
 .subscribe-label {
   display: block;
 }
@@ -495,6 +504,7 @@ margin-left: 120px;
 
 .subscribe-wrapper {
   display: flex;
+  color: var(--color-white);
 }
 
 .subscribe-btn {
